@@ -70,7 +70,7 @@ sudo n stable
 ```
 2. clone this repository:
 ```
-git clone https://github.com/syfxlin/xknote.git
+git clone https://github.com/m8e/xknote.git
 ```
 1. Copy `.env.example` file, rename it to `.env`, modify the corresponding information, and turn off the debug mode
 ```
@@ -137,19 +137,19 @@ yarn
 ```
 APP_DEBUG=false
 APP_ENV=production
-APP_ADMIN_ID=1 #一般来说第一位注册的用户自动升级为管理员，也就是id为1的用户，如果发现不是可以修改这个参数，改成你的id
+APP_ADMIN_ID=1 #Generally speaking, the first registered user is automatically upgraded to an administrator, that is, the user whose id is 1. If you find that this parameter is not available, you can modify this parameter and change it to your id.
 APP_URL=you url
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=xknote
-DB_USERNAME=you mysql username
-DB_PASSWORD=you mysql password
+DB_USERNAME=InsertYourMySQLusername
+DB_PASSWORD=InsertYourMySQLPassword
 MAIL_DRIVER=smtp
 MAIL_HOST=smtp.example.com
 MAIL_PORT=465
-MAIL_USERNAME=you mail username
-MAIL_PASSWORD=you main password
+MAIL_USERNAME=InsertYourMailUsername
+MAIL_PASSWORD=InsertYourMailPassword
 MAIL_ENCRYPTION=ssl
 MAIL_FROM_ADDRESS=i@example.com
 MAIL_FROM_NAME=XK-Note
